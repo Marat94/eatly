@@ -1,0 +1,132 @@
+.contact {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.contact-body {
+    width: 1246px;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    column-gap: 280px;
+}
+
+.contact-item {
+    width: 531px;
+    height: 818px;
+    background-color: #6C5FBC;
+}
+
+.contact-item-headline {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.contact-item-headline h1 {
+    color: #F9F9F9;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.contact-item-mobile {
+    display: flex;
+    align-items: start;
+    margin-top: 70px;
+    margin-left: 370px;
+    column-gap: 10px;
+}
+
+.contact-mobile-img {
+    margin-top: 20px;
+}
+
+.contact-form {
+    width: 531px;
+    height: 818px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+    line-height: 0;
+}
+
+.contact-form-headline {
+    color: #252525;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+.contact-form-headline span {
+    color: #6C5FBC;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.name-input,
+.email-input {
+    width: 380px;
+    padding: 21px 8px 21px 25px;
+    border-radius: 17px;
+    border: 2px solid #6C5FBC;
+    outline-color: #5144A0;
+    background: #F9F9F9;
+    color: #B6B6B6;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.contact-textarea {
+    width: 350px;
+    height: 250px;
+    padding: 22px 35px 22px 27px;
+    align-items: flex-start;
+    resize: none;
+    border-radius: 18px;
+    border: 2px solid #6C5FBC;
+    outline-color: #5144A0;
+    background: #F9F9F9;
+    font-family: sans-serif;
+    color: #B6B6B6;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.button-input {
+    width: 420px;
+    height: 76px;
+    border-radius: 16px;
+    background: #6C5FBC;
+    color: #F9F9F9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.624px;
+    text-transform: capitalize;
+    border: none;
+    transition: 1s background-color ease;
+}
+
+.button-input:hover {
+    cursor: pointer;
+    background-color: #5144A0;
+}

@@ -1,0 +1,199 @@
+.chicken-king {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.chicken-king-item {
+    width: 1237px;
+    height: 497px;
+    border-radius: 30px;
+    border: 1px solid #F4F4F6;
+    box-shadow: 7px 91px 45px 0 rgba(229, 229, 229, 0.70);
+    margin-top: 106px;
+}
+
+.chicken-image img {
+    border-radius: 30px 30px 0 0;
+}
+
+.chicken-king-info {;
+    display: flex;
+    align-items: center;
+}
+
+.chicken-king-info h1 {
+    color: #323142;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 46px;
+}
+
+.chicken-king-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 170px;
+}
+
+.chicken-king-rating p {
+    color: #8E97A6;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.bookmark-icon {
+    margin-left: 400px;
+}
+
+
+
+
+.chicken-king-menu {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.chicken-king-dish {
+    width: 1237px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 200px;
+    margin-top: 140px;
+}
+
+.popular-dish {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 60px;
+}
+
+.chicken-veg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 60px;
+}
+
+.chicken-veg > h1 {
+    color: #323142;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+.dish-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    width: 225px;
+    height: 390px;
+    border-radius: 35px;
+    border: 1px solid #F4F4F6;
+    background:  #FFF;
+    box-shadow: 6.84842px 82.18102px 41.09051px 0 rgba(229, 229, 229, 0.70);
+}
+
+.dish-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.dish-type {
+    max-width: 59px;
+    height: 22px;
+    border-radius: 5px;
+    margin-left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dish-type span {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.dish-name {
+    color: #323142;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 14px;
+}
+
+.dish-info {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.dish-time,
+.dish-rating {
+    color: #8E97A6;
+    font-size: 19.34px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.dish-add {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.dish-price {
+    width: 115px;
+    height: 40px;
+    margin-left: 15px;
+    color: #323142;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.count {
+    color: #323142;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+
+.add-button:hover {
+    cursor: pointer;
+}
+

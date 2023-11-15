@@ -1,0 +1,226 @@
+.our-pricing {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.our-pricing-info {
+    width: 1246px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.our-pricing-rectangle {
+    width: 1246px;
+    height: 334px;
+    display: flex;
+    justify-content: center;
+    background-color: #5C4EAE;
+    background-image: url("/public/image/order/banner.svg");;
+}
+
+.our-pricing-headline {
+    display: flex;
+    margin-top: 40px;
+}
+
+.our-pricing-headline h1 {
+    color: #F9F9F9;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    letter-spacing: -1px;
+}
+
+.our-pricing-dash {
+    margin-top: -270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.price-card {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 1246px;
+    height: 1200px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.card-plans {
+    display: flex;
+    justify-content: center;
+    column-gap: 220px;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.plan_1 {
+    margin-left: 190px;
+}
+
+.card-plans h1 {
+    color: #282828;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -1px;
+}
+
+.card-plans p {
+    width: 131px;
+    height: 54px;
+    color: #6E757C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.card-prices {
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.card-price {
+    display: flex;
+    column-gap: 260px;
+    margin-right: 152px;
+    margin-top: 40px;
+}
+
+.card-price div {
+    display: flex;
+}
+
+.card-price-currency {
+    color: #272E35;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.card-price-value {
+    color: #272E35;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.card-price-value p {
+    color: #6E757C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.card-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #CBCBCB;
+    margin-top: 50px;
+}
+
+.card-features-headline {
+    color: #272E35;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin-left: 93px;
+}
+
+.card-features-dash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.card-features-list {
+    display: flex;
+    margin-left: 93px;
+    column-gap: 280px;
+}
+
+.card-features-list p {
+    color: #606060;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.card-features-title {
+    width: 260px;
+}
+
+.card-features-icons {
+    display: flex;
+    align-items: center;
+    column-gap: 320px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 228px;
+    margin-top: 44px;
+    margin-right: 100px;
+
+}
+
+/*.card-buttons div {*/
+/*    display: flex;*/
+
+/*}*/
+
+.start-here-button,
+.start-pro-button {
+    width: 146px;
+    height: 59px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #6C5FBC;
+    color: #F9F9F9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.488px;
+    text-transform: uppercase;
+    transition: 1s background-color ease;
+    border: none;
+}
+
+
+.start-here-button:hover,
+.start-pro-button:hover {
+    background: #5144A0;
+    cursor: pointer;
+}

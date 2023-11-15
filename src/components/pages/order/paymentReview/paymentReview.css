@@ -1,0 +1,239 @@
+.payment-review {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.payment {
+    width: 692px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 60px;
+}
+
+.payment-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+
+.payment-item {
+    width: 681px;
+    height: 109px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 6px 0px 41px 0 rgba(229, 229, 229, 0.70);
+    column-gap: 250px;
+}
+
+.payment-product {
+    width: 250px;
+    display: flex;
+    column-gap: 14px;
+}
+
+.payment-product-name {
+    color: #323142;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.payment-value {
+    color: #323142;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.product-count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.count-decrease {
+    width: 31px;
+    height: 31px;
+    border: 2px solid #323142;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: inherit;
+}
+
+.count-increase {
+    width: 31px;
+    height: 31px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #323142;
+    color: #f9f9f9;
+    border: none;
+}
+
+.count-decrease:hover,
+.count-increase {
+    cursor: pointer;
+}
+
+.item-count {
+    color: #323142;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.product-total-value {
+    width: 58px;
+    height: 23px;
+    color: #323142;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-align: center;
+}
+
+.order-coupon {
+    width: 681px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.coupon {
+    width: 541px;
+    height: 70px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.coupon-icon {
+    margin-left: 20px;
+}
+
+.coupon-input {
+    width: 100%;
+    height: 60px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: #C2C3CB;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 117.5%;
+    letter-spacing: -0.36px;
+}
+
+.coupon-apply {
+    width: 132px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6C5FBC;
+    color: #F3F5F6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.36px;
+    transition: 1s background-color ease;
+}
+
+.coupon-apply:hover {
+    cursor: pointer;
+    background-color: #5144A0;
+}
+
+.order-total-payment {
+    width: 681px;
+    display: flex;
+    flex-direction: column;
+}
+
+.order-payment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.value_1,
+.value_2 {
+    border-bottom: 2px dashed #ACADB9;
+}
+
+.value_1 p,
+.value_2 p {
+    color: #323142;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117.5%;
+    letter-spacing: -0.4px;
+    opacity: 0.7;
+}
+
+.value_3 p {
+    color: #323142;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 117.5%;
+    letter-spacing: -0.5px;
+}
+
+.order-review-payment {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.order-review-button {
+    width: 681px;
+    height: 77px;
+    border-radius: 15px;
+    background: #6C5FBC;
+    color: #FFF3EB;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    transition: 1s background-color ease;
+    border: none;
+}
+
+.order-review-button:hover {
+    cursor: pointer;
+    background-color: #5144A0;
+}
+

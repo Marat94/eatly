@@ -1,0 +1,134 @@
+.restaurants {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: sans-serif;
+}
+
+.restaurants hr {
+    width: 1246px;
+    border: 1px solid #CBCBCB;
+    margin-top: 120px;
+}
+
+.res-title {
+    color: #323142;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 100px;
+}
+
+.res-title span {
+    color: #6C5FBC;
+}
+
+.top-restaurants {
+    max-width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.restaurant {
+    width: 396px;
+    height: auto;
+    border-radius: 30px;
+    border: 1px solid #F4F4F6;
+    background: #FFF;
+    box-shadow: 6px 72px 36px 0 rgba(229, 229, 229, 0.70);
+}
+
+.res-img {
+    border-radius: 30px 30px 0 0;
+}
+
+.res-type {
+    width: 74px;
+    height: 24px;
+    margin-left: 33px;
+    margin-top: 11px;
+    border-radius: 5.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-type span {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.res-name {
+    color: #323142;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+    margin-left: 34px;
+}
+
+.chicken-king-link {
+    text-decoration: none;
+}
+
+.res-info {
+    display: flex;
+    align-items: center;
+    margin-left: 34px;
+    margin-bottom: 17px
+}
+
+.res-time,
+.res-rating {
+    color: #8E97A6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 6px;
+}
+
+.star-icon {
+    margin-right: 6px;
+}
+
+.bookmark {
+    margin-left: 156px;
+}
+
+
+.view-all-res {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: 65px;
+    margin-left: 1150px;
+    color: #ACADB9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: -0.1px;
+    transition: color 1s ease;
+}
+
+.view-res-arrow {
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.view-all-res:hover, .view-res-arrow :hover {
+    color: #5144A0;
+    cursor: pointer;
+}
+

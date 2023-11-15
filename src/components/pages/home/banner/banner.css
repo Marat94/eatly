@@ -1,0 +1,90 @@
+.banner {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.banner-rectangle {
+    width: 1214px;
+    height: 280px;
+    border-radius: 30px;
+    background-image: url("/public/image/order/banner.svg");
+    background-color: #6c5fbc;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 280px;
+    margin-top: 200px;
+
+}
+
+.banner-get-percent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.get-percent {
+    color: #FFF;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-input-items {
+    width: 439px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0 7px 45px 0 rgba(0, 0, 0, 0.10);
+}
+
+.banner-input {
+    width: 270px;
+    height: 60px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    color: #878787;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.488px;
+    text-transform: capitalize;
+}
+
+.banner-input-button {
+    width: 132px;
+    height: 53px;
+    border-radius: 11px;
+    background: #6C5FBC;
+    color: #F7F8FA;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.443px;
+    text-transform: uppercase;
+    border: none;
+    transition: 1s background-color ease;
+}
+
+.banner-input-button:hover {
+    cursor: pointer;
+    background-color: #5144A0;
+}
+
+.banner-img {
+    margin-top: 154px;
+}

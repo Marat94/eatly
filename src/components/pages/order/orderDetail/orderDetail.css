@@ -1,0 +1,119 @@
+.order-detail {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: sans-serif;
+}
+
+.order-detail-item {
+    width: 1246px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    background-size: contain;
+    margin-bottom: 200px;
+}
+
+.order-card {
+    width: 451px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background: #FFF;
+    row-gap: 30px;
+    box-shadow: 6px 82px 41px 0 rgba(229, 229, 229, 0.70);
+}
+
+.order-card-header {
+    width: 451px;
+    height: 107px;
+    border-radius: 25px 25px 0 0;
+    background: #323142;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.rider-img {
+    margin-left: 19px;
+}
+
+
+.rider-name {
+    color: #F3F5F6;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px;
+}
+
+.rider-info {
+    color: #ACADB9;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.order-card-details {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    column-gap: 40px;
+}
+
+.order-del-info {
+
+}
+
+.order-location {
+    display: flex;
+    column-gap: 20px;
+}
+
+.order-address-title,
+.order-time-title {
+    color: #ACADB9;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0;
+    margin-top: 20px;
+}
+
+.order-time {
+    display: flex;
+    column-gap: 20px;
+}
+
+.order-address,
+.order-delivery-time {
+    width: 170px;
+    color: #323142;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.order-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 131px;
+    height: 41px;
+    border-radius: 4px;
+    background: #6C5FBC;
+}
+
+.order-status p {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
